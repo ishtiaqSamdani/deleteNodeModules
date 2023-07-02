@@ -1,4 +1,4 @@
-# deleteNodeModules
+# delete node_modules from all sub folders within parent folder
 
 ## replace path with path to parent folder
 
