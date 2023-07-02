@@ -1,4 +1,10 @@
 # deleteNodeModules
 
+## replace path with path to parent folder
+
 ```
-find Projects/ -name "node_modules" -type d -prune -exec rm -rf {} +
+find /path/to/parent -name "node_modules" -type d -prune -exec rm -rf {} +
+```
+### example:
+```
+find Desktop/Projects/ -name "node_modules" -type d -prune -exec rm -rf {} +
